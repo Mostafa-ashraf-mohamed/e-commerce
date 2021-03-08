@@ -206,7 +206,14 @@ border-radius: 200px;
 @media (max-width: 900px) {
     .ourGalleryBody .navHeader ul {
         margin: 0;
-        padding-left: 20%;
+
+    }
+    .ourGalleryBody .navHeader li{
+        width: 33.33%;
+
+    }
+    .ourGalleryBody .navHeader button{
+        font-size: 15px;
     }
 }
 /*end ourGallery*/
